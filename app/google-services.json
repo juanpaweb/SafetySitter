@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "429399245761",
+    "firebase_url": "https://safetysitter-98365.firebaseio.com",
+    "project_id": "safetysitter-98365",
+    "storage_bucket": "safetysitter-98365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429399245761:android:e99c24b1b75de312",
+        "android_client_info": {
+          "package_name": "com.example.safetysitter.safetysitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429399245761-6g3m66p0t8k65umduedncqupaq5pq0tv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safetysitter.safetysitter",
+            "certificate_hash": "84DFE1221DE40D47894BE9D83C335DB6E6FB7B39"
+          }
+        },
+        {
+          "client_id": "429399245761-d60vk09k99f2b7u6o5ua5kqdr1r1mn02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUWw8KSb6LLv7hvfF7ZSO4vJH7pP6ifSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429399245761-d60vk09k99f2b7u6o5ua5kqdr1r1mn02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

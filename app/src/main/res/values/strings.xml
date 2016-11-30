@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SafetySitter</string>
+    <string name="title_bar">SaftySitter</string>
+    <string name="edit_text_hint_my_number_phone">Enter your number phone</string>
+    <string name="edit_text_hint_phone_to_connect">Enter number phone to connect</string>
+    <string name="sms_check_box_text">Send SMS</string>
+    <string name="audio_check_bex_text">Scan with audio</string>
+    <string name="video_check_box_text">Scan with video</string>
+    <string name="siren_check_box_text">Play a alarm</string>
+    <string name="check_if_language_is_hebrew">עברית</string>
+    <string name="safetysitter_tag">SafetySitter</string>
+    <string name="toast_phone_number_invalid">The phone number invalid</string>
+    <string name="contant_sms_in_event">Alert, identified scenario</string>
+    <string name="app_label">SafetySitter</string>
+    <string name="search_hint">search_hint</string>
+    <string name="search_description">contacts</string>
+    <string name="text_alert_negative_button">Try again</string>
+    <string name="text_alert_positive_button">Continue to scanner</string>
+    <string name="title_alert_token_not_found">Error to connect phone number</string>
+    <string name="message_alert_token_not_found">The number phone not pound, you want to continue without broadcast stream video at event, or try to connect again</string>
+    <string name="title_alert_error_connect_to_server">Error connection to server</string>
+    <string name="message_alert_error_connect_to_server">The connect to the internet failed, you want to continue without broadcast stream video at event, or try to connect again</string>
+    <string name="switch_button">awitch_button</string>
+</resources>

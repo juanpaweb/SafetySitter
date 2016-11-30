@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackgroundLayoutApp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background_image_02"
+        android:src="@drawable/image_background_app"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/title_bar"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:id="@+id/title_bar_02"
+        android:background="@color/colorBackgroundTitleBar"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/search_line_bar"
+        android:layout_below="@+id/title_bar_02"
+        android:background="@color/colorBackgroundTitleBar"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/search_view_number_phone_to_connect"
+            android:hint="@string/edit_text_hint_phone_to_connect">
+
+        </SearchView>
+
+        <EditText
+            android:layout_below="@+id/search_view_number_phone_to_connect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="phone"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/edit_text_number_phone_to_connect"
+            android:hint="@string/edit_text_hint_phone_to_connect"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/next_button"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btn_image_view_phone_to_connect" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_line_bar"
+        android:id="@+id/list_view_contacts_list">
+
+    </ListView>
+
+
+
+</RelativeLayout>

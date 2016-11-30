@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafetySitter</string>
+    <string name="edit_text_hint_my_number_phone">הכנס את מספר הפלאפון שלך</string>
+    <string name="edit_text_hint_phone_to_connect">הכנס מספר פלאפון לחיבור</string>
+    <string name="sms_check_box_text">שלח SMS</string>
+    <string name="audio_check_bex_text">סרוק עם אודיו</string>
+    <string name="video_check_box_text">סרוק עם וידאו</string>
+    <string name="siren_check_box_text">הפעל אזעקה</string>
+    <string name="check_if_language_is_hebrew">עברית</string>
+    <string name="title_bar">Saftysitter</string>
+    <string name="safetysitter_tag">safetysitter</string>
+    <string name="toast_phone_number_invalid">המספר אינו חוקי</string>
+    <string name="contant_sms_in_event">התראה, זוהה תרחיש</string>
+    <string name="search_hint">search_hint</string>
+    <string name="search_description">אנשי קשר</string>
+    <string name="app_label">SafetySitter</string>
+    <string name="text_alert_negative_button">נסה שוב</string>
+    <string name="text_alert_positive_button">המשך לסורק</string>
+    <string name="title_alert_token_not_found">שגיאה באיטור המשתמש</string>
+    <string name="message_alert_token_not_found">המשתמש לא נמצא, אתה יכול לנסות שוב או להמשיך לסורק</string>
+    <string name="title_alert_error_connect_to_server">שגיאת התחברות לשרת</string>
+    <string name="message_alert_error_connect_to_server">החיבור לאינטרנט נכשל, אתה יכול לנסות שנית או להמשיך לסורק</string>
+    <string name="switch_button">switch_button</string>
+</resources>
